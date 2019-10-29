@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/lexbeelen/devthis/issues"
   },
-  "homepage": "https://github.com/lexbeelen/devthis#readme"
+  "homepage": "https://github.com/lexbeelen/devthis#readme",
+  "bin": {
+    "devthis": "./dist/index.js"
+  }
 }
