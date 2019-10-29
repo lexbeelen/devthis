@@ -1,0 +1,22 @@
+{
+  "name": "devthis",
+  "version": "1.0.0",
+  "description": "A CLI tool for export/import databases from remote to local.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexbeelen/devthis.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Lex Beelen & Sanne Hoogmans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexbeelen/devthis/issues"
+  },
+  "homepage": "https://github.com/lexbeelen/devthis#readme"
+}
