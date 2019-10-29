@@ -4,6 +4,8 @@
   "description": "A CLI tool for export/import databases from remote to local.",
   "main": "./dist/index.js",
   "scripts": {
+    "dev": "tsc --watch && npm run permissions",
+    "permissions": "chmod +x ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
