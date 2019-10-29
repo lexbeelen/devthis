@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsc --watch && npm run permissions",
     "permissions": "chmod +x ./dist/index.js",
+    "global": "tsc && npm run permissions && npm install -g",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
