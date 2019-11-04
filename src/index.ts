@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('DEV THIS');
+import chalk from 'chalk';
+
+console.log(chalk.blue('DEV THIS'));
