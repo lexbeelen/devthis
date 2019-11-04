@@ -4,10 +4,10 @@
   "description": "A CLI tool for export/import databases from remote to local.",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "tsc --watch && npm run permissions",
-    "permissions": "chmod +x ./dist/index.js",
-    "global": "tsc && npm run permissions && npm install -g",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "test": "npm i -g && devthis",
+    "clean": "rm -rf ./dist",
+    "ts": "node_modules/.bin/tsc"
   },
   "repository": {
     "type": "git",
